@@ -11,7 +11,7 @@ public class FormattingNumbers {
         System.out.println(result);
         //percentage formatting
         NumberFormat percent = NumberFormat.getPercentInstance();
-        String result2 = percent.format(0.1);
+        String result2 = percent.format(0.1 );
         System.out.println(result2);
     }
 }
